@@ -3,7 +3,7 @@
 $usuario = $_POST['usuario'];
 $clave = $_POST['clave'];
 
-if($usuario == $clave){
+if($usuario == "admin" && $clave == "admin"){
 echo 'Hola ' . $usuario . ' Acceso correcto';
 }
 else{
